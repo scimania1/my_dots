@@ -1,0 +1,22 @@
+module Colors.Nightfox where
+
+colorscheme = "nightfox"
+
+color0  = "#192330"
+color1  = "#cdcecf"
+color2  = "#393b44"
+color3  = "#c94f6d"
+color4  = "#81b29a"
+color5  = "#dbc074"
+color6  = "#719cd6"
+color7  = "#9d79d6"
+color8  = "#63cdcf"
+color9  = "#dfdfe0"
+color10 = "#575860"
+color11 = "#d16983"
+color12 = "#8ebaa4"
+color13 = "#e0c989"
+color14 = "#86abdc"
+color15 = "#baa1e2"
+color16 = "#7ad5d6"
+color17 = "#e4e4e5"
