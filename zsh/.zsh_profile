@@ -1,0 +1,19 @@
+source "/usr/share/fzf/completion.zsh"
+source "/usr/share/fzf/key-bindings.zsh"
+
+export PATH="/var/lib/flatpak/exports/bin/:/var/lib/snapd/snap/bin/:$HOME/.local/share/:$HOME/.local/bin/:$HOME/.cargo/env:$PATH"
+export EDITOR="nvim"
+export PAGER="nvim +Man!"
+export BROWSER="brave"
+# export QT_QPA_PLATFORMTHEME=qt5ct
+# export QT_STYLE_OVERRIDE=kvantum
+
+# aliases
+alias ls="exa -Fhb --color=always --group-directories-first --icons" # my preferred listing
+alias ll="exa -laFhb --color=always --group-directories-first --icons"  # long format
+alias lt="exa -aT --color=always --group-directories-first" # tree listing
+alias l.="exa -a | egrep "^\.""
+
+alias dotfiles="cd $HOME/.dotfiles/"
+
+alias update="sudo pacman -Syyu"
